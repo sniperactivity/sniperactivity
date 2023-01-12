@@ -1,0 +1,124 @@
+<!doctype html>
+<html>
+	
+	<head>
+		<title> Apply-New Horizon Course Registration </title>
+		<LINK type="text/css" rel="stylesheet" href="css/form.css" /> 
+		<LINK rel="icon" href="images/logo.png" type="image/x-icon"/> 
+    </head>
+	
+	<body>
+		<div class="topbar">
+			<center> <img src="images/oglo.jpg" class="divv"></center>
+			<center><h2> New Horizons Computer Learning Centers<br/>Ikorodu</h2></center>
+			<nav>
+				<h3 align="right"> 
+				<a class="fibo" href="index.html"> Home </a> | 
+				<a class="fibo" href="aboutus.html"> About Us </a>| 
+				<a class="fibo" href="contactus.html"> Contact Us </a>
+				</h3>
+			</nav>
+        </div>
+
+        </div> 
+            <div class="container">
+                <div class="pop" id="pop">
+                    <center>
+                    <div class="show">
+                        <div>
+                        <img class="pp" src="images/check.png" alt="">
+                        </div>  
+                        <div>
+                        <p>Your Registration Form has been submitted.</p>
+                        <p>A counselor will get back to you shortly. thank you..</p>
+
+                        <input type="submit" value="Back to form" onClick="window.location.reload(true)">
+                    </div>
+                    </div>
+                    </center>
+                </div>
+                <div class="cover" id="dis">
+                    <form action="action_page.php">
+                        <div class="row">
+                        <div class="col-25">
+                            <label for="fname">Full Name:</label>
+                        </div>
+                        <div class="col-75">
+                            <input type="text" id="fname" name="firstname" placeholder="Your name.." required>
+                        </div>
+                        </div>
+                        <div class="row">
+                        <div class="col-25">
+                            <label for="lname">Email: </label>
+                        </div>
+                        <div class="col-75">
+                            <input type="text" id="lname" name="lastname" placeholder="email Address.." required>
+                        </div>
+                        </div>
+                        <div class="row">
+                        <div class="col-25">
+                            <label for="No">Phone Number: </label>
+                        </div>
+                        <div class="col-75">
+                            <input type="text" id="No" name="Phone" placeholder="09012345678..">
+                        </div>
+                        </div>
+                        <div class="row">
+                        <div class="col-25">
+                            <label for="course">Choose Course: </label>
+                        </div>
+                        <div class="col-75">
+                            <select id="course" name="cc" required>
+                            <option selected></option>
+                            <option>Python Programming</option>
+                            <option>Digital Marketing</option>
+                            <option>Web Development</option>
+                            <option>Multimedia Graphics</option>
+                            <option>Ethical Hacking</option>
+                            <option>CCNA</option>
+                            </select>
+                        </div>
+                        </div>
+                        <div class="row">
+                        <div class="col-25">
+                            <label for="train">Type of Classes: </label>
+                        </div>
+                        <div class="col-75">
+                            <input type="radio" name="tr" id="train" > Online
+                            <input type="radio" name="tr" id="train" > Physical
+                        </div>
+                        </div>
+                        <div class="row">
+                        <div class="col-25">
+                            <label for="classes">Class Schedule : </label>
+                        </div>
+                        <div class="col-75">
+                            <select id="classes" name="cl">
+                            <option>Weekdays classes</option>
+                            <option>Weekends classes</option>
+                            </select>
+                        </div>
+                        </div>
+                        <div class="not">
+                        <div class="row">
+                        <input type="button" value=" SUBMIT " onclick="appear();">
+                        </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+        <footer>
+			<div class="footbar">
+				<h4>112, Lagos road, beside FIRS building, Haruna bus stop ikorodu, 104211, Lagos.</h4>
+				<h4>Email:info@newhorizonsnigeria.com</h4>
+				<h4>Whatsapp:+2349078277980</h4>
+                <hr style="color: white;">
+				<h4 align="right">Copyright &copy; 2022. All Right Reserved.</h4>
+			</div>
+		</footer>
+
+        <script src="js/form.js"></script>
+	</body>
+	
+</html>	

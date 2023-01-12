@@ -1,0 +1,112 @@
+.topbar, footer{
+	background-color:blue;
+	border-radius: 20px;
+	color: white;
+    padding: 5px;
+}
+h2{
+    font-size: 25pt;
+}
+.fibo{
+    background-color: white;
+    color: black;
+    border: 2px solid blue;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  .fibo:hover{
+    background-color: black;
+    color: white;
+  }
+  input[type=text], select, textarea{
+    width: 80%;
+    padding: 20px 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+} 
+label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+input[type=button] {
+    background-color: black;
+    color: white;
+    font-weight: bolder;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+    margin-top: 6px;
+}
+input[type=button]:hover{
+    background-color: white;
+    color: black;
+}
+input[type=submit] {
+    background-color: black;
+    color: white;
+    font-weight: bolder;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 6px;
+}
+input[type=submit]:hover{
+    background-color: white;
+    color: black;
+}
+.container {
+    background-color: whitesmoke;
+    max-width: 100%;
+    border-radius: 5px;
+    padding: 20px 20px;
+    text-align: center;
+}
+.col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 10px;
+}
+.col-75 {
+    float: right;
+    width: 75%;
+    margin-top: 10px;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+@media only screen and (max-width:786px){
+    .col-25, .col-75 {
+        width: 100%;
+        margin-top: 0;
+      }
+}
+.show{
+    background-color: blue;
+    color: white;
+    font-size: 18pt;
+    padding: 20px 20px;
+    max-width: 60%;
+    max-height: 60%;
+    border-radius: 20px;
+    align-self: center;
+}
+.pop{
+    display: none;
+}
+.pp{
+    width: 50%;
+    border-radius: 10px;
+}
+.not{
+    max-width: 80%;
+}
